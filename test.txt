@@ -1,0 +1,757 @@
+기트 7.16(월) 코드내용
+celle@DESKTOP-65CPOP0 MINGW64 ~
+$ git user.name
+git: 'user.name' is not a git command. See 'git --help'.
+
+celle@DESKTOP-65CPOP0 MINGW64 ~
+$ git config --user.name"cellenar"
+error: unknown option `user.namecellenar'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_rege                              x]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, com                              mand line)
+    --default <value>     with --get, use default value when missing entry
+
+
+celle@DESKTOP-65CPOP0 MINGW64 ~
+$ ^C
+
+celle@DESKTOP-65CPOP0 MINGW64 ~
+$ git config --user.name "cellenar"
+error: unknown option `user.name'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_rege                              x]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, com                              mand line)
+    --default <value>     with --get, use default value when missing entry
+
+
+celle@DESKTOP-65CPOP0 MINGW64 ~
+$ user.name
+bash: user.name: command not found
+
+celle@DESKTOP-65CPOP0 MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NetHood@
+ NTUSER.DAT
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ NTUSER.DAT{47a6a17a-a514-11e7-a94e-ec0d9a05c860}.TM.blf
+ NTUSER.DAT{47a6a17a-a514-11e7-a94e-ec0d9a05c860}.TMContainer0000000000000000000                              1.regtrans-ms
+ NTUSER.DAT{47a6a17a-a514-11e7-a94e-ec0d9a05c860}.TMContainer0000000000000000000                              2.regtrans-ms
+ NTUSER.DATTMP.rd
+ ntuser.ini
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ source/
+ Sti_Trace.log
+ Templates@
+ Videos/
+'시작 메뉴'@
+
+celle@DESKTOP-65CPOP0 MINGW64 ~
+$ cd desktop
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop
+$ ls
+'Android Studio.lnk'*
+'Configure Tomcat.lnk'*
+ desktop.ini
+'Monitor Tomcat.lnk'*
+'my sql_result grid 안보이는 거 에러 해결 버전.txt'
+'Python36-32 - 바로 가기.lnk'*
+ server.xml
+ startbootstrap-creative-gh-pages.zip
+ test.py
+'Tomcat 8.0 - 바로 가기.lnk'*
+'Visual Studio 2017.lnk'*
+ web.xml
+ 기트.txt
+'내 PC - 바로 가기.lnk'*
+ 두드림작업/
+'아서스 소프트웨어'/
+ 유틸리티/
+ 자바_계절/
+ 최장훈/
+'카카오톡 받은 파일 - 바로 가기.lnk'*
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop
+$ cd 두드림작업
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (master)
+$ user.name
+bash: user.name: command not found
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (master)
+$ git config--user.name
+git: 'config--user.name' is not a git command. See 'git --help'.
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (master)
+$ git --help
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (master)
+$ git -c<cellenar>
+bash: syntax error near unexpected token `newline'
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (master)
+$ git add index.html
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/celle/Desktop/두드림작업/.git/
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (master)
+$ git config --user.name "cellenar"
+error: unknown option `user.name'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_rege                              x]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, com                              mand line)
+    --default <value>     with --get, use default value when missing entry
+
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/celle/Desktop/두드림작업/.git/
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (master)
+$ git config
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_rege                              x]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, com                              mand line)
+    --default <value>     with --get, use default value when missing entry
+
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (master)
+$ user.mail
+bash: user.mail: command not found
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (master)
+$ git con --user.mail
+git: 'con' is not a git command. See 'git --help'.
+
+The most similar command is
+        clone
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (master)
+$ git config --user.mail
+error: unknown option `user.mail'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_rege                              x]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, com                              mand line)
+    --default <value>     with --get, use default value when missing entry
+
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (master)
+$ git branch 3조_cocogoodjob
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (master)
+$ git clone https://github.com/cellenar/cellenar.github.io.git
+Cloning into 'cellenar.github.io'...
+remote: Counting objects: 119, done.
+remote: Compressing objects: 100% (106/106), done.
+remote: Total 119 (delta 12), reused 119 (delta 12), pack-reused 0
+Receiving objects: 100% (119/119), 1.80 MiB | 399.00 KiB/s, done.
+Resolving deltas: 100% (12/12), done.
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (master)
+$ git branch 3조_cellenar
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (master)
+$ git branch
+  3조_cellenar
+  3조_cocogoodjob
+* master
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (master)
+$ git branch
+  3조_cellenar
+  3조_cocogoodjob
+* master
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (master)
+$ git branch
+  3조_cellenar
+  3조_cocogoodjob
+* master
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (master)
+$ *
+bash: cellenar.github.io: command not found
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (master)
+$ git checkout 3조_cellenar
+Switched to branch '3조_cellenar'
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ git branch
+* 3조_cellenar
+  3조_cocogoodjob
+  master
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ git checkout 3조_cocogoodjob
+Switched to branch '3조_cocogoodjob'
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cocogoodjob)
+$ git branch
+  3조_cellenar
+* 3조_cocogoodjob
+  master
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cocogoodjob)
+$ git checkout 3조_cellenar
+Switched to branch '3조_cellenar'
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ git branch
+* 3조_cellenar
+  3조_cocogoodjob
+  master
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ git clone
+$ git branch
+* 3조_cellenar
+  3조_cocogoodjob
+  master
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktfatal: You must specify a repository to clone.
+
+usage: git clone [<options>] [--] <repo> [<dir>]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --progress            force progress reporting
+    -n, --no-checkout     don't create a checkout
+    --bare                create a bare repository
+    --mirror              create a mirror repository (implies bare)
+    -l, --local           to clone from a local repository
+    --no-hardlinks        don't use local hardlinks, always copy
+    -s, --shared          setup as shared repository
+    --recurse-submodules[=<pathspec>]
+                          initialize submodules in the clone
+    -j, --jobs <n>        number of submodules cloned in parallel
+    --template <template-directory>
+                          directory from which templates will be used
+    --reference <repo>    reference repository
+    --reference-if-able <repo>
+                          reference repository
+    --dissociate          use --reference only while cloning
+    -o, --origin <name>   use <name> instead of 'origin' to track upstream
+    -b, --branch <branch>
+                          checkout <branch> instead of the remote's HEAD
+    -u, --upload-pack <path>
+                          path to git-upload-pack on the remote
+    --depth <depth>       create a shallow clone of that depth
+    --shallow-since <time>
+                          create a shallow clone since a specific time
+    --shallow-exclude <revision>
+                          deepen history of shallow clone, excluding rev
+    --single-branch       clone only one branch, HEAD or --branch
+    --no-tags             don't clone any tags, and make later fetches not to follow them
+    --shallow-submodules  any cloned submodules will be shallow
+    --separate-git-dir <gitdir>
+                          separate git dir from working tree
+    -c, --config <key=value>
+                          set config inside the new repository
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+    --filter <args>       object filtering
+
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+bash: syntax error near unexpected token `('
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ $ git branch
+bash: $: command not found
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ * 3조_cellenar
+bash: cellenar.github.io: command not found
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$   3조_cocogoodjob
+bash: 3조_cocogoodjob: command not found
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$   master
+bash: master: command not found
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ celle@DESKTOP-65CPOP0 MINGW64 ~/desktls
+bash: celle@DESKTOP-65CPOP0: command not found
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ ls
+cellenar.github.io/  gulpfile.js  index.html  LICENSE       package-lock.json  scss/
+css/                 img/         js/         package.json  README.md          vendor/
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ git clone https://github.com/cellenar/DoDreamEdu.git
+Cloning into 'DoDreamEdu'...
+remote: Counting objects: 40, done.
+remote: Compressing objects: 100% (26/26), done.
+remote: Total 40 (delta 8), reused 37 (delta 6), pack-reused 0
+Unpacking objects: 100% (40/40), done.
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ git branch
+* 3조_cellenar
+  3조_cocogoodjob
+  master
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ git add .
+warning: adding embedded git repository: DoDreamEdu
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> DoDreamEdu
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached DoDreamEdu
+hint:
+hint: See "git help submodule" for more information.
+warning: adding embedded git repository: cellenar.github.io
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ git branch
+* 3조_cellenar
+  3조_cocogoodjob
+  master
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ git add .
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ git branch
+* 3조_cellenar
+  3조_cocogoodjob
+  master
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ git branch
+* 3조_cellenar
+  3조_cocogoodjob
+  master
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ git add .
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ git commit -m "add name in readme"
+[3조_cellenar 635e8e9] add name in readme
+ 2 files changed, 2 insertions(+)
+ create mode 160000 DoDreamEdu
+ create mode 160000 cellenar.github.io
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ git branch
+* 3조_cellenar
+  3조_cocogoodjob
+  master
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ git add .
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ git commit -m "add name in read me"
+On branch 3조_cellenar
+Changes not staged for commit:
+        modified:   DoDreamEdu (modified content)
+
+no changes added to commit
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ git push origin README.md
+error: src refspec README.md does not match any.
+error: failed to push some refs to 'https://github.com/cellenar/cellenar.github.io.git'
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ git push origin 3조_cellenar
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 306 bytes | 153.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/cellenar/seong954t.github.io.git
+To https://github.com/cellenar/cellenar.github.io.git
+ * [new branch]      3조_cellenar -> 3조_cellenar
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ ls
+cellenar.github.io/  DoDreamEdu/  img/        js/      package.json       README.md  vendor/
+css/                 gulpfile.js  index.html  LICENSE  package-lock.json  scss/
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ git status
+On branch 3조_cellenar
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+  (commit or discard the untracked or modified content in submodules)
+
+        modified:   DoDreamEdu (modified content)
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ git commit -m "Name added"
+On branch 3조_cellenar
+Changes not staged for commit:
+        modified:   DoDreamEdu (modified content)
+
+no changes added to commit
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ git add .
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ ls
+cellenar.github.io/  DoDreamEdu/  img/        js/      package.json       README.md  vendor/
+css/                 gulpfile.js  index.html  LICENSE  package-lock.json  scss/
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ cd DoDreamEdu/
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업/DoDreamEdu (master)
+$ git branch
+* master
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업/DoDreamEdu (master)
+$ git add .
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업/DoDreamEdu (master)
+$ git commit -m "name change"
+[master 97a2445] name change
+ 1 file changed, 2 insertions(+)
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업/DoDreamEdu (master)
+$ git push origin master
+To https://github.com/cellenar/DoDreamEdu.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/cellenar/DoDreamEdu.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업/DoDreamEdu (master)
+$ git push origin 3조_cellenar
+error: src refspec 3조_cellenar does not match any.
+error: failed to push some refs to 'https://github.com/cellenar/DoDreamEdu.git'
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업/DoDreamEdu (master)
+$ git branch
+* master
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업/DoDreamEdu (master)
+$ git checkout master
+Already on 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업/DoDreamEdu (master)
+$ git checkout 3조_cellenar
+error: pathspec '3조_cellenar' did not match any file(s) known to git.
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업/DoDreamEdu (master)
+$ git branch
+* master
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업/DoDreamEdu (master)
+$ git checkout 3조_cellenarc^C
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업/DoDreamEdu (master)
+$ cd ..
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ ls
+cellenar.github.io/  DoDreamEdu/  img/        js/      package.json       README.md  vendor/
+css/                 gulpfile.js  index.html  LICENSE  package-lock.json  scss/
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업 (3조_cellenar)
+$ cd DoDreamEdu/
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업/DoDreamEdu (master)
+$ git branch 3조_cellenar
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업/DoDreamEdu (master)
+$ git checkout 3조_cellenar
+Switched to branch '3조_cellenar'
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업/DoDreamEdu (3조_cellenar)
+$ git branch
+* 3조_cellenar
+  master
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업/DoDreamEdu (3조_cellenar)
+$ vi README.md
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업/DoDreamEdu (3조_cellenar)
+$ git add .
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업/DoDreamEdu (3조_cellenar)
+$ git commit -m "read me add name"
+On branch 3조_cellenar
+nothing to commit, working tree clean
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업/DoDreamEdu (3조_cellenar)
+$ git push origin 3조_cellenar
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 356 bytes | 118.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/cellenar/DoDreamEdu.git
+   9955f3f..97a2445  3조_cellenar -> 3조_cellenar
+
+celle@DESKTOP-65CPOP0 MINGW64 ~/desktop/두드림작업/DoDreamEdu (3조_cellenar)
