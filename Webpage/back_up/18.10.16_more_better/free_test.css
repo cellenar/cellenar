@@ -1,0 +1,33 @@
+.list {
+  border: 2px solid red;
+}
+
+.list_one_out {
+  background-color: lightblue;
+  text-align: center;
+}
+
+.list_one * {
+  margin: 0px;
+  display: inline;
+}
+
+.list_two {
+  background-color: lightgray;
+  margin: 0px;
+}
+
+.left {
+  border: 2px solid black;
+}
+
+.middle {
+  margin: 500px;
+  border: 2px solid yellow;
+  text-align: center;
+}
+
+.right {
+  border: 2px solid green;
+  text-align: right;
+}
