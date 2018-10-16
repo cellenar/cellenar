@@ -1,0 +1,62 @@
+body {
+  margin: 0px;
+}
+
+.header * {
+  background-color: lightgray;
+  /* border: 2px solid red; */
+  text-align: center;
+  margin:
+}
+
+.header_box * {
+  display: inline;
+  text-align: center;
+}
+
+.first_list * {
+  /* text-align: center; */
+  /* border: 2px solid black; */
+  /* background-color: red; */
+}
+
+.list_box {
+  margin-top: 50px;
+  margin-left: 230px;
+  text-align: left;
+  border: 2px solid green;
+}
+
+#list_one {
+  margin-right: 500px;
+  border: 2px solid red;
+}
+
+#list_two {
+  margin-right: 500px;
+  border: 2px solid red;
+}
+
+#list_three {
+  margin-right: 500px;
+  border: 2px solid red;
+}
+
+.second_list {
+  margin-top: 50px;
+  margin-left: 230px;
+  text-align: left;
+  border: 2px solid blue;
+}
+
+.list_title {
+  text-align: left;
+  border: 2px solid red;
+  margin-right: 500px;
+}
+
+.list_show {
+  margin-right: 500px;
+  border: 2px solid red;
+  text-align: left;
+}
